@@ -1,0 +1,7 @@
+---
+ -host: dev
+  -task: 
+   -name: creaing user
+    user: name=chandu state=present
+   -name: installing httpd
+   -yum: name=httpd state=installed
